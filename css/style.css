@@ -1,0 +1,25 @@
+:root {
+    --blue: rgb(33, 150, 243);
+    --blue-lighten-3: rgb(144, 202, 249);
+    --blue-joes-dark: rgb(4, 26, 60);
+    --red-joes-red: rgb(90, 7, 7);
+    --red: rgb(244, 67, 54);
+    --red-lighten-3: rgb(238, 153, 153);
+}
+
+@font-face {
+    font-family: 'inter';
+    src: url('../font/InterVariable.woff2') format('woff2');
+    font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+p {
+    font-family: 'inter', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
