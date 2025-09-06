@@ -7,8 +7,10 @@ My business website displaying my web development and writing skills. Thank you 
 
 ## Style Guide Notes
 ### Fonts:
-- Website Font: [**Inter**](https://rsms.me/inter/)
+- Website Font: Monospace
 
 
 ### Color Scheme:
-- 
+- black
+- chartreuse
+- purple

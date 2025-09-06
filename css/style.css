@@ -1,25 +1,215 @@
-:root {
-    --blue: rgb(33, 150, 243);
-    --blue-lighten-3: rgb(144, 202, 249);
-    --blue-joes-dark: rgb(4, 26, 60);
-    --red-joes-red: rgb(90, 7, 7);
-    --red: rgb(244, 67, 54);
-    --red-lighten-3: rgb(238, 153, 153);
+/* ********** GLOBAL STYLES ********** */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-@font-face {
-    font-family: 'inter';
-    src: url('../font/InterVariable.woff2') format('woff2');
-    font-weight: normal;
+body {
+    background-color: #000;
+    color: #fff;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'inter', Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    color: var(--blue);
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #111;
+}
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 5px solid #000;
+    background-color: #222;
+}
+
+.btn:hover {
+    border: 5px solid navy;
+    background-color: #000;
+}
+
+/* ********** TYPOGRAPHY STYLES ********** */
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.25em;
+}
+
+a:hover {
+    color: chartreuse;
+}
+
+h1 {
+    color: chartreuse;
 }
 
 p {
-    font-family: 'inter', Arial, Helvetica, sans-serif;
-    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.chartreuse {
+    color: chartreuse;
+}
+
+.selected {
+    border-bottom: 5px solid blue;
+    padding-bottom: 3px;
+}
+
+/* ********* FULL-SCREEN COMPUTERS STYLES **********
+   ********* HEADER SECTION STYLES ********** */
+
+header {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+header h1 a, header h1 a:hover {
+    color: chartreuse;
+}
+
+.logo {
+    width: 50%;
+}
+
+nav {
+    width: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* ********* ABOUT SECTION STYLES ********** */
+
+#about {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    border: 1px solid gray;
+}
+
+.about-text {
+    width: 50%;
+}
+
+.about-text p {
+    padding-bottom: 10px;
+}
+
+.about-image {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ********* BLOG SECTION STYLES ********** */
+
+#blog {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    border: 1px solid gray;
+}
+
+.blog-image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-image img {
+    width: 75%;
+}
+
+.blog_text {
+    width: 50%;
+}
+
+/* ********* PROJECTS SECTION STYLES ********** */
+
+#projects {
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    border: 1px solid gray;
+}
+
+.projects-image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects-image img {
+    width: 75%;
+}
+
+.projects-text {
+    width: 50%;
+}
+
+/* ********** FOOTER SECTION ********** */
+
+footer {
+    width: 100%;
+    padding: 40px;
+    border: 1px solid gray;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.identify {
+    width: 50%;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+.socials {
+    width: 50%;
+    height: 200px;
+    padding: 15px;
+}
+
+.socials ul {
+    padding: 20px, 0, 0, 20px;
+    padding-left: 20px;
 }
